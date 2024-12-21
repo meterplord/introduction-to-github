@@ -1,0 +1,8 @@
+sifre=int(input("sifreyi gir"))
+ulke=input("ülken ne?")
+if sifre==1920:
+    print("şifre doğru girebilirsin")
+elif  ulke=="türkiye":
+    print()
+else:
+    print('şifrenin yanlış olduğunu fark ettik')
